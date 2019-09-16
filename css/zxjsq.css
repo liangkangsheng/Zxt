@@ -1,0 +1,252 @@
+  body {
+  	font-family: Arial, Helvetica, sans-serif, 'ËÎÌו';
+  	color: #172C45;
+  	font-size: 12px;
+  	padding: 0;
+  	margin: 0;
+  }
+  ul,
+  li {
+  	list-style: none;
+  	padding: 0px;
+  	margin: 0px;
+  }
+  a {
+  	text-decoration: none;
+  }
+  .jsq {
+  	width: 673px;
+  	margin-bottom: 10px;
+  	height: auto;
+  	overflow: auto;
+  }
+  .jsqL {
+  	width: 200px;
+  	float: left;
+  	border: 1px solid #eee
+  }
+  .menu {
+  	color: rgb(202, 202, 201);
+  }
+  td a {
+  	color: gray;
+  	font-size: 12px;
+  	font-weight: bold
+  }
+  .jsqR {
+  	line-height: 24px;
+  	float: left;
+  	width: auto;
+  	_margin-left: 0px;
+  	padding-bottom: 10px;
+  	text-align: center
+  }
+  .jsqR input,
+  .jsqR textarea {
+  	height: 20px;
+  	vertical-align: middle;
+  	color: #4c4c4c
+  }
+  .setheight {
+  	height: 33px;
+  }
+  /*.setheight input[type^=button],.setheight input[type^=reset] { 
+  	height: 30px;line-height: 30px;width: 100px;margin: 5px 10px;background-color: #D84C29;text-align: center;color: #FFFFFF;
+  	border-radius: 5px;cursor: pointer;
+	border: 0;
+  	 }
+  .setheight input[type^=button]:hover,.setheight input[type^=reset]:hover { 
+  	opacity: 0.88;
+  	 }*/
+  .btnA[type^=button],.btnA[type^=reset] { 
+  	height: 30px;line-height: 30px;width: 100px;margin: 5px 10px;background-color: #D84C29;text-align: center;color: #FFFFFF;
+  	border-radius: 5px;cursor: pointer;
+	border: 0;
+  	 }
+  .btnA[type^=button]:hover,.btnA[type^=reset]:hover { 
+  	opacity: 0.88;
+  	 }
+  .setcolor {
+  	color: gray
+  }
+
+  .jsq {
+  	background: #eee;
+  	margin-bottom: 10px;
+  	_overflow: visible
+  }
+  .toolT {
+  	height: auto;
+  	overflow: auto;
+  	padding: 10px;
+  	padding-bottom: 0px
+  }
+  .toolT h2 {
+  	float: left
+  }
+  .toolT span {
+  	float: right
+  }
+  .jsqC {
+  	height: auto;
+  	overflow: auto;
+  	margin-top: 10px;
+  	background: white;
+  	_clear: both
+  }
+  .jsqList {
+  	width: 200px;
+  	float: left;
+  	margin: 10px;
+  	margin-bottom: 0px;
+  }
+  .listP {
+  	width: 68px;
+  	height: 68px;
+  	float: left;
+  	cursor: pointer;
+  	background: url(../Images/zxtools.jpg);
+  	overflow: hidden
+  }
+  .listP2 {
+  	background: url(../Images/zxtools1.jpg)
+  }
+  .listP1 {
+  	float: left;
+  	width: 30px;
+  	height: 30px;
+  	overflow: hidden;
+  	cursor: pointer;
+  	background: url(../Images/zxtools.gif) no-repeat
+  }
+  .listN {
+  	float: left;
+  	width: 130px;
+  	_overflow: hidden
+  }
+  .listP3 {
+  	background: url(../Images/zxtools2.jpg)
+  }
+  .listNs {
+  	margin-left: 10px;
+  	line-height: 26px;
+  	text-align: left
+  }
+  .listNS a {
+  	color: #4c4c4c
+  }
+  .listNc {
+  	line-height: 20px;
+  	margin-left: 10px;
+  	width: 120px;
+  	text-align: left;
+  	color: gray
+  }
+  .diban {
+  	background-position: -69px -80px
+  }
+  .diban1 {
+  	background-position: -37px -37px
+  }
+  .dizhuan {
+  	background-position: -345px -80px
+  }
+  .dizhuan1 {
+  	background-position: -174px -42px
+  }
+  .qiangzhuan {
+  	background-position: -206px -80px
+  }
+  .qiangzhuan1 {
+  	background-position: -104px -42px
+  }
+  .tuliao {
+  	background-position: -0px -80px
+  }
+  .tuliao1 {
+  	background-position: -105px -42px
+  }
+  .bizhi {
+  	background-position: -138px -80px
+  }
+  .bizhi1 {
+  	background-position: -71px -42px
+  }
+  .chuanglian {
+  	background-position: -275px -80px;
+  }
+  .chuanglian1 {
+  	background-position: -140px -42px
+  }
+  .zhuangxiuyusuanbiao1 {
+  	background-position: -37px -10px
+  }
+  .zhuangxiuyusuanbiao11 {
+  	background-position: -172px 0px;
+  }
+  .zhuangxiuyusuanbiao {
+  	background-position: -346px 0px
+  }
+  .fangdai {
+  	background-position: -208px 0px
+  }
+  .fangdai1 {
+  	background-position: -108px 0px
+  }
+  .goufangnengli {
+  	background-position: -345px 0px
+  }
+  .gongjijindaikuan {
+  	background-position: -415px 0px
+  }
+  .gongjijindaikuan1 {
+  	background-position: -209px -2px
+  }
+  .zhufangfangdai {
+  	background-position: -482px 0px
+  }
+  .zhufangfangdai1 {
+  	background-position: -209px -2px
+  }
+  .zhufangshui {
+  	background-position: -276px 0px
+  }
+  .zhufangshui1 {
+  	background-position: -139px -2px
+  }
+  .chufangpeise {
+  	background-position: 0 0
+  }
+  .chufangpeise1 {
+  	background-position: 0 0
+  }
+  .cantingpeise {
+  	background-position: -204px 0
+  }
+  .cantingpeise1 {
+  	background-position: -103px 0
+  }
+  .ketingpeise {
+  	background-position: -68px 0px
+  }
+  .ketingpeise1 {
+  	background-position: -136px 0px
+  }
+  .ketingpeise11 {
+  	background-position: -69px -2px
+  }
+  .ketingpeise21 {
+  	background-position: -35px 0
+  }
+  .weishengjianpeise11 {
+  	background-position: -139px 0px
+  }
+  .weishengjianpeise21 {
+  	background-position: -170px 0px
+  }
+  .weishengjianpeise {
+  	background-position: -272px 0px
+  }
+  .weishengjianpeise1 {
+  	background-position: -340px 0px
+  }

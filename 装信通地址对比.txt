@@ -1,0 +1,35 @@
+https://www.zx123.cn/about/zhaopin/ ---  招聘 zhaopin.html
+https://www.zx123.cn/member/login.php    --- 登录  sms_login.html
+https://www.zx123.cn/member/register.php --- 注册 register.html
+https://www.zx123.cn/join/ --- 城市合伙人 join.html
+https://www.zx123.cn/help/ --- 常见问题 help.html
+https://www.zx123.cn/join/company/  --- 商家入驻 companyJoin.html
+https://www.zx123.cn/ads/  --- 广告预定 ads.html
+https://www.zx123.cn/about/aboutus/ --- 公司简介 aboutus.html
+https://www.zx123.cn/xuezhuangxiu/ --- 学装修 xuezhuangxiu.html
+https://www.zx123.cn/baike/ --- 装修百科  xuezhuangxiu/baike.html
+https://www.zx123.cn/zxjsq/ --- 装修计算  xuezhuangxiu/zxjsq.html
+https://www.zx123.cn/zxlc/ --- 装修流程 xuezhuangxiu/ zxlc.html
+https://www.zx123.cn/zxrj/ --- 装修日记 xuezhuangxiu/ zxrj.html
+http://www.zx123.cn/xiaoguotu/ --- 装修效果图   xiaoguotu/index.html
+http://www.zx123.cn/xiaoguotu/jiazhuang/ 家具图册 xiaoguotu/jiazhuang/index.html
+http://www.zx123.cn/xiaoguotu/gongzhuang/ 工装图册 xiaoguotu/gongzhuang/index.html
+http://www.zx123.cn/xiaoguotu/zhuanti/ 精品专题  xiaoguotu/zhuanti/index.html
+http://www.zx123.cn/xiaoguotu/jingpin/ 精选美图  xiaoguotu/jingpin/index.html
+https://bj.zx123.cn/xiaoqu/ 同城装修-我的小区 tongchengzhuangxiu/xiaoqu/xiaoqu.html
+https://bj.zx123.cn/zxsj/ 同城装修-装修设计 tongchengzhuangxiu/zxsj/zxsj.html
+https://bj.zx123.cn/gongdi/ 同城装修-在线工地 tongchengzhuangxiu/gongdi/gongdi.html
+https://bj.zx123.cn/wenda/ 同城装修-本地问答 tongchengzhuangxiu/wenda/wenda.html
+https://www.zx123.cn/ask/show-1300006.html 首页 装修行业问答 一栏 shouye/hxwd.html
+https://www.zx123.cn/xiaoguotu/4574/ 首页 装修效果图 一栏 shouye/xgt.html
+https://www.zx123.cn/2019/0904/1780929.html 首页 装修小区案例 一栏 shouye/zxal.html
+https://sz.zx123.cn/2019/0910/1785319.html 首页 装修百科 一栏 shouye/zxbk.html
+https://www.zx123.cn/zxrj/show-38655.html 首页 装修日记 一栏 shouye/zxrj.html
+https://zunyi.zx123.cn/2019/0909/1785305.html 首页 业主最新招标 一栏 shouye/zxzb.html 
+https://www.zx123.cn/zb/yusuan.html 设计方案    shejifangan/sheji.html
+https://www.zx123.cn/largeorder.html 高端项目 largeorder/largeorder.html
+https://bj.zx123.cn/company.html 装修公司 comany/comany.html
+https://bj.zx123.cn/jc/company.html 建材公司 comany/comanyJC/comany_jc.html
+https://bj.zx123.cn/jiancai/ 装修建材 comany/comanyJianCai/comany_jiancai.html
+http://www.zx123.cn/xiaoguotu/201908231771257.html 装修效果图>工装效果图>中式>上海新中式酒店客房玻璃隔断装修图片 conent.html
+http://bj.zx123.cn/  切换到北京的首页 index_bj.html

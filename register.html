@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>新用户注册_装修123</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link href="./favicon.ico" rel="shortcut icon" />
+		<script language="JavaScript" src="js/jquery-1.8.0.min.js"></script>
+		<link rel="stylesheet" href="css/layui.css" media="all">
+		<link rel="stylesheet" href="css/pc_2016.css" />
+		<script language="JavaScript" src="js/pc_2016.js"></script>
+	</head>
+
+	<body class="main">
+		<div>
+			<div class="maintop">
+				<div class="main1200 clear">
+					<div class="mt_left">
+						<a href="//www.zx123.cn/city/">
+							<span class="iconty"><span class="icon"></span></span><span class="cityName">总站</span>
+							<font>【切换】</font>
+						</a>
+						<span class="mt_masg">
+8年来打造专业的装修平台，已为4,208,329位用户提供了优质装修服务！
+</span>
+					</div>
+					<div class="mt_right">
+						<span class="jk">
+<a class="one_a" style="color: #ff3322;" href="./company.html">>商家入驻</a>
+<a class="one_a" style="color: #ff3322;" href="./join.html">城市合伙人</a>
+</span>
+						<span class="jk">
+
+<a href="javascript:;" onclick="window.open('//b.qq.com/webc.htm?new=0&sid=800053418&eid=2188z8p8p8p8R8P8Q8q8z&o=zx123.cn&q=7&ref='+document.location, '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" rel="nofollow">在线咨询</a>
+<!--<a href="//www.zx123.cn/zx123sitemap.html" rel="nofollow">网站地图</a>-->
+<a class="one_a" style="cursor:default;">热线：4000-123-169</a>
+</span>
+						<span class="jk">
+<a href="//www.zx123.cn/member/register.php" rel="nofollow">注册</a>
+<a href="//www.zx123.cn/member/login.php" rel="nofollow">登陆</a>
+</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<script src="js/layui.js" charset="utf-8"></script>
+
+			<div class="mainlogo clear">
+				<div class="main860 clear">
+					<div class="ml_logo">
+						<a href="/">
+							<!--<img alt="装修网" src="picture/hyzxlogo.png" width="300" height="110">-->
+							<img alt="装修网" src="picture/login_banle.png" width="402" height="62">
+						</a>
+					</div>
+					<div class="ml_text">
+						<div class="ml_textwe">用户登录</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<style>
+			.main860 {
+				width: 1200px;
+			}
+			
+			.mainlogo .ml_text {
+				display: none;
+			}
+			
+			.mainlogo .ml_logo {
+				padding: 20px 0;
+			}
+			
+			.denlu .denlulist {
+				width: 556px;
+			}
+			
+			.denlu .denlulist img {
+				width: 100%;
+				height: auto;
+			}
+			
+			.maincenter .denlu {
+				height: 700px;
+			}
+			
+			.denlu .denlulister {
+				width: 360px;
+				padding: 0px 20px 20px 20px;
+				border: 0;
+				background: #fff;
+				border-radius: 5px;
+				box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+				height: 600px;
+			}
+			
+			.denlu .denlul_li {
+				width: auto;
+				height: 50px;
+				line-height: 50px;
+				margin: 15px 0;
+				overflow: hidden;
+			}
+			
+			.denlu .denluli_a {
+				padding: 0;
+				border-bottom: 1px solid #eee;
+				height: 60px;
+				line-height: 60px;
+				margin-top: 10px;
+				line-height: 58px;
+			}
+			
+			.denlu .denlul_li input[type='password'],
+			.denlu .denlul_li input[type='text'],
+			.denlu .denlul_li input[type='number'] {
+				width: 100%;
+				height: 100%;
+				text-indent: 40px;
+				border: 0;
+				padding: 0;
+				margin: 0;
+				background: none;
+				box-shadow: none;
+			}
+			
+			.denlu .denluli_a span.dfg {
+				font-weight: normal;
+				border-bottom: 2px solid #ff7444;
+			}
+			
+			.denlu .denluli_text {
+				position: relative;
+				background: #f7f7f7;
+				border-radius: 5px;
+				box-shadow: 0 2px 4px inset rgba(0, 0, 0, 0.01);
+			}
+			
+			.denlu .denluli_text .yzm_btn {
+				position: absolute;
+				user-select: none;
+				z-index: 9;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				border-radius: 0 5px 5px 0;
+				background: #e9e9e9;
+				color: #666;
+				width: 8em;
+				text-align: center;
+			}
+			
+			.denlu .denluli_text .yzm_btn span {
+				color: #ff7444;
+			}
+			
+			.denlu .denluli_text .yzm_btn .btn-a {
+				display: block;
+				cursor: pointer;
+			}
+			
+			.denlu .denluli_text .yzm_btn .btn-b {
+				display: none;
+			}
+			
+			.denlu .denluli_text.rzxy {
+				background: transparent;
+				line-height: 20px;
+				height: 20px;
+			}
+			
+			.denlu .denluli_text.rzxy label {
+				cursor: pointer;
+			}
+			
+			.denlu .denluli_text.rzxy a:hover {
+				text-decoration: underline;
+				cursor: pointer;
+			}
+			
+			.pcbanner_bd_sj .sj_sz {
+				font-size: 40px;
+				margin: 30px 0px 0px auto;
+				text-align: center;
+				color: #ff7d44;
+			}
+			
+			.pcbanner_bd_sj .sj_sm {
+				font-size: 14px;
+				margin: 0;
+				text-align: center;
+				color: #979797;
+			}
+			
+			.denlu .denlul_li input.sabmi {
+				background: #ff7444;
+				border-radius: 5px;
+				height: 50px;
+				line-height: 50px;
+				width: 100%;
+				font-size: 18px;
+				letter-spacing: 1px;
+				color: #fff;
+			}
+			
+			.denlu .denlul_li span.icon {
+				top: 14px;
+			}
+			
+			.denlu .denlul_li span.iconlo {
+				width: 22px;
+				height: 22px;
+				background: url(images/login.png) no-repeat;
+				background-size: 157px 200px;
+			}
+			
+			.denlu .denlul_li span.iconlo.icon_a {
+				background-position-y: -58px;
+			}
+			
+			.denlu .denlul_li span.iconlo.icon_b {
+				background-position-y: -28px;
+			}
+			
+			.denlu .denlul_li span.iconlo.icon_c {
+				background-position-y: 0px;
+			}
+			
+			.denlu .denlul_li span.iconlo.icon_d {
+				background-position-y: -88px;
+			}
+			
+			.denlu .denlul_li span.iconlo.icon_yi {
+				background-position-x: -77px;
+			}
+			
+			.denlu .denlul_li span.iconlo.icon_er {
+				background-position-x: -107px;
+			}
+			
+			.denlu .denlul_li span.iconlo.icon_sv {
+				background-position-x: -139px;
+			}
+			
+			.denluli_text span#df {
+				display: block;
+				margin: 0 0 0 40px;
+			}
+			
+			.denluli_text span#df select {
+				display: block;
+				float: left;
+				height: 50px;
+				background: transparent;
+				border: 0;
+				padding: 0 0 0 4%;
+				width: 32%;
+			}
+			
+			.denluli_text span#df.qushixian select {
+				width: 48%;
+			}
+			
+			.denluli_text span#df select:first-child {
+				margin: 0;
+			}
+			
+			.aasdgj {
+				font-size: 14px;
+				color: #333;
+				line-height: 20px;
+				padding-bottom: 10px;
+			}
+			
+			.pcbannermaa {
+				padding: 0;
+			}
+			
+			.pcbannermaa .lisdus {
+				cursor: pointer;
+				float: left;
+				width: 114px;
+				padding-bottom: 10px;
+				background: #fff;
+				position: relative;
+				border: 1px solid #fff;
+				border-width: 1px 1px 0 1px;
+				border-radius: 5px 5px 0 0;
+			}
+			
+			.lisdus.er {
+				margin: 0 6px;
+			}
+			
+			.lisdus.hover {
+				position: relative;
+				z-index: 2;
+				margin-bottom: -1px;
+				transform: translate(0, 1px);
+			}
+			
+			.lisdus.a.hover {
+				border-color: #ff7444;
+			}
+			
+			.lisdus.b.hover {
+				border-color: #76a6ff;
+			}
+			
+			.lisdus.c.hover {
+				border-color: #e19a00;
+			}
+			
+			.lisdus .asddd {
+				margin: 2px 5px;
+				padding: 5px 10px;
+				line-height: 20px;
+				position: relative;
+			}
+			
+			.lisdus .iconlo {
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			
+			.lisdus .iconte {
+				font-size: 14px;
+				margin: 0 0 0 38px;
+			}
+			
+			.lisdus .iconte.sd {
+				line-height: 40px;
+				height: 40px;
+			}
+			
+			.lisdus .asddd.iconlo_a {
+				box-shadow: 0 5px 5px rgba(255, 116, 68, 0.2);
+				color: #ff7444;
+			}
+			
+			.lisdus .asddd.iconlo_b {
+				box-shadow: 0 5px 5px rgba(118, 166, 255, 0.2);
+				color: #76a6ff;
+			}
+			
+			.lisdus .asddd.iconlo_c {
+				box-shadow: 0 5px 5px rgba(225, 254, 0, 0.2);
+				color: #e19a00;
+			}
+			
+			.lisdus.hover .asddd {
+				box-shadow: none;
+			}
+			
+			.lisdus .iconlo {
+				background: url(images/login.png) no-repeat;
+				background-size: 100px 128px;
+			}
+			
+			.lisdus .asddd.iconlo_a .iconlo {
+				background-position: 5px 1px;
+			}
+			
+			.lisdus .asddd.iconlo_b .iconlo {
+				background-position: 5px -44px;
+			}
+			
+			.lisdus .asddd.iconlo_c .iconlo {
+				background-position: 5px -88px;
+			}
+			
+			.pcbannermar {
+				padding: 0 20px;
+				border: 1px solid #ff7444;
+				border-radius: 5px;
+			}
+			
+			.pcbannermar.a {
+				border-color: #ff7444;
+				border-radius: 0 5px 5px 5px;
+			}
+			
+			.pcbannermar.b {
+				border-color: #76a6ff;
+			}
+			
+			.pcbannermar.c {
+				border-color: #f9b522;
+				border-radius: 5px 0 5px 5px;
+			}
+			
+			.denlu .pcbannermar.a .denlul_li input.sabmi {
+				background: #ff7444;
+			}
+			
+			.denlu .pcbannermar.b .denlul_li input.sabmi {
+				background: #76a6ff;
+			}
+			
+			.denlu .pcbannermar.c .denlul_li input.sabmi {
+				background: #f9b522;
+			}
+			
+			.zhuce_type {
+				text-align: center;
+				margin: auto;
+				background-color: #f7f1f1;
+				border-radius: 2px;
+				width: 102px;
+				height: 30px;
+				line-height: 30px;
+				margin-top: 5px;
+				padding: auto;
+				verticle-align: middle;
+				font-family: "microsoft yahei";
+				font-size: 14px;
+				color: #777;
+				margin-top: 11px;
+				transition: ease all 0.3s;
+			}
+			
+			.zhuce_type:hover {
+				background: #ff7444;
+				color: #fff;
+			}
+		</style>
+
+		<div class="maincenter">
+			<div class="denlu" style="background: url(images/login_bg.jpg) center center no-repeat;">
+				<div class="main860">
+					<div class="denlulist">
+						<img alt="装修网" src="picture/reglos.png" width="556" height="534" />
+					</div>
+					<div class="denlulister">
+
+						<div class="denlul_li denluli_a">
+							<span class="dfg"><a href="javascript:void(0)">商家用户</a></span>
+							<span><a href="javascript:void(0)">普通用户</a></span>
+
+						</div>
+
+						<form id="my_from_a" action="#" method="post" onsubmit="return checklogin()" style="display: none;">
+							<div class="pcbanner_bd_sj">
+								<p class="sj_sz">500,0000</p>
+								<p class="sj_sm">已服务中国家庭</p>
+							</div>
+							<div class="denlul_li denluli_text">
+								<span class="icon iconlo icon_a icon_sv"></span>
+								<span id="df" class="df clear"></span>
+								<input class="txt areaid" id="areaid" name="memberinfo[areaid]" type="hidden" value="0">
+							</div>
+							<div class="denlul_li denluli_text">
+								<span class="icon iconlo icon_b icon_sv"></span><input type="text" class="username" id="username" name="memberinfo[truename]" placeholder="您的称呼">
+							</div>
+							<div class="denlul_li denluli_text">
+								<span class="icon iconlo icon_c icon_sv"></span><input type="text" class="loginphone" id="loginphone" name="memberinfo[loginphone]" placeholder="手机号码">
+							</div>
+							<div class="denlul_li denluli_text">
+								<span class="icon iconlo icon_d icon_sv"></span><input type="number" class="yzm" id="yzm" name="smscode" placeholder="请输入验证码">
+								<div class="yzm_btn" id="yzm_btn">
+									<div class="btn-a">点击获取</div>
+									<div class="btn-b"><span>60</span>秒后重新获取</div>
+								</div>
+							</div>
+							<div class="denlul_li denluli_text rzxy">
+
+								<label><input type="checkbox" checked="checked" name="rzxy" value="ok"/>我已同意</label>
+								<a onclick="rzxy()">《装信通服务条款和声明》</a>
+							</div>
+							<div class="denlul_li">
+								<input class="txt" name="memberinfo[modelid]" type="hidden" value="10">
+								<input type="button" class="sabmi" value="立即注册" id="sub1">
+							</div>
+						</form>
+
+						<form id="my_from_b" style="display: block;" action="#" method="post" onsubmit="return checklogin()">
+							<div class="aasdgj">请选择商家类型：</div>
+							<div class="pcbannermaa clear">
+								<div class="lisdus a hover">
+									<div class="asddd iconlo_a">
+										<div class="iconlo iconlo_a"></div>
+										<div class="iconte">装修装<br>饰企业</div>
+									</div>
+								</div>
+								<div class="lisdus b er">
+									<div class="asddd iconlo_b">
+										<div class="iconlo iconlo_b"></div>
+										<div class="iconte sd">设计师</div>
+									</div>
+								</div>
+								<div class="lisdus c">
+									<div class="asddd iconlo_c">
+										<div class="iconlo iconlo_c"></div>
+										<div class="iconte">材料<br>供应商</div>
+									</div>
+								</div>
+								<input class="txt" id="company_type" name="company_type" type="hidden" value="9">
+								<input class="txt" name="memberinfo[modelid]" type="hidden" value="11">
+							</div>
+							<div class="pcbannermar a">
+								<div class="denlul_li denluli_text">
+									<span class="icon iconlo icon_a icon_sv"></span>
+									<span id="df" class="df clear"></span>
+									<input class="txt areaid" id="areaid" name="memberinfo[areaid]" type="hidden" value="0">
+								</div>
+								<div class="denlul_li denluli_text">
+									<span class="icon iconlo icon_b icon_sv"></span>
+									<input type="text" class="username" id="username" name="memberinfo[truename]" placeholder="您的称呼">
+								</div>
+								<div class="denlul_li denluli_text">
+									<span class="icon iconlo icon_c icon_sv"></span>
+									<input type="text" class="loginphone" id="loginphone" name="memberinfo[loginphone]" placeholder="手机号码">
+								</div>
+								<div class="denlul_li denluli_text">
+									<span class="icon iconlo icon_d icon_sv"></span>
+									<input type="number" class="yzm" id="yzm" name="smscode" placeholder="请输入验证码">
+									<div class="yzm_btn" id="yzm_btn">
+										<div class="btn-a">点击获取</div>
+										<div class="btn-b"><span>60</span>秒后重新获取</div>
+									</div>
+								</div>
+								<div class="denlul_li denluli_text rzxy">
+									<label><input type="checkbox" checked="checked" name="rzxy" value="ok"/>我已同意</label>
+									<a onclick="rzxy()">《装信通服务条款和声明》</a>
+								</div>
+								<div class="denlul_li">
+									<input type="button" class="sabmi" value="立即注册" id="sub2">
+								</div>
+							</div>
+						</form>
+						<div>
+							<div class="zhuce_type">
+								<a href="//www.zx123.cn/member/register.php?modelid=11&action=old_register">账号密码注册</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			layui.use('layer', function() {
+				var layer = layui.layer;
+			})
+			$(".pcbannermaa .lisdus").click(function() {
+				$(".pcbannermaa .lisdus").removeClass("hover");
+				$(this).addClass("hover");
+				var ins = $(".pcbannermaa .lisdus").index(this);
+				if(ins == 0) {
+					$(".pcbannermar").addClass("a");
+					$(".pcbannermar").removeClass("b");
+					$(".pcbannermar").removeClass("c");
+					$(".denlu .denlul_li span.iconlo").addClass("icon_sv");
+					$(".denlu .denlul_li span.iconlo").removeClass("icon_yi");
+					$(".denlu .denlul_li span.iconlo").removeClass("icon_er");
+					$("#company_type").val(9);
+
+				} else if(ins == 1) {
+					$(".pcbannermar").addClass("b");
+					$(".pcbannermar").removeClass("a");
+					$(".pcbannermar").removeClass("c");
+					$(".denlu .denlul_li span.iconlo").addClass("icon_yi");
+					$(".denlu .denlul_li span.iconlo").removeClass("icon_sv");
+					$(".denlu .denlul_li span.iconlo").removeClass("icon_er");
+					$("#company_type").val(8);
+				} else if(ins == 2) {
+					$(".pcbannermar").addClass("c");
+					$(".pcbannermar").removeClass("b");
+					$(".pcbannermar").removeClass("a");
+					$(".denlu .denlul_li span.iconlo").addClass("icon_er");
+					$(".denlu .denlul_li span.iconlo").removeClass("icon_yi");
+					$(".denlu .denlul_li span.iconlo").removeClass("icon_sv");
+					$("#company_type").val(10);
+				}
+			})
+
+			$(".denlu .denluli_a span").click(function() {
+				var ins = $(".denlu .denluli_a span").index(this);
+				$(".denlu .denluli_a span").removeClass("dfg");
+				$(this).addClass("dfg");
+				if(ins != 0) {
+					$("#my_from_b").hide();
+					$("#my_from_a").show();
+				} else {
+					$("#my_from_a").hide();
+					$("#my_from_b").show();
+				}
+			})
+
+			$(".yzm_btn .btn-a").click(function() {
+				var _thiss = $(this).parents("form");
+				var classid = $(this).parents("form").attr("id");
+				console.log('classid:');
+				console.log(classid);
+				var mobile = _thiss.find(".loginphone").val();
+				if(mobile == '') {
+					layer.msg('请输入手机号码');
+				} else if(!(/^1[2|3|4|5|6|7|8|9]\d{9}$/.test(mobile))) {
+					layer.msg('手机号码格式有误！');
+				} else {
+					ajax_yzm(mobile, classid);
+				}
+			});
+
+			function ajax_yzm(mobile, classid) {
+				//获取验证码
+
+				$.get("//www.zx123.cn/member/register.php?action=getcode&ajax=1&mobile=" + mobile, function(data) {
+					if(data.status == 1) {
+						$("#" + classid).find(".yzm_btn .btn-a").hide();
+						$("#" + classid).find(".yzm_btn .btn-b").show();
+					} else {
+						if(data.type == 1) {
+							layer.confirm(data.msg, {
+								btn: ['确定', '取消'] //按钮
+							}, function() {
+								window.location.href = '//www.zx123.cn/member/login.php';
+							}, function() {
+
+							});
+							return false;
+						} else {
+							layer.msg(data.msg);
+							return false;
+						}
+
+					}
+
+					jishi(60, classid);
+				}, 'json');
+
+				//返回成功
+				// layer.msg("验证码已发送！");
+				// $("#"+classid).find(".yzm_btn .btn-b").show();
+				// $("#"+classid).find(".yzm_btn .btn-a").hide();
+				// jishi(60,classid);
+			}
+			//计时
+			function jishi(i, classid) {
+				i--;
+				if(i < 1) {
+					$("#" + classid).find(".yzm_btn .btn-b").hide();
+					$("#" + classid).find(".yzm_btn .btn-a").show();
+				} else {
+					$("#" + classid).find(".btn-b span").html(i);
+					setTimeout(function() {
+						jishi(i, classid);
+					}, 1000);
+				}
+			}
+
+			$(".sabmi").click(function() {
+				var _thiss = $(this).parents("form");
+				var classid = $(this).parents("form").attr("id");
+				if(_thiss.find(".areaid").val() == '0') {
+					layer.msg('请选择地区');
+
+					return false;
+				}
+				if(_thiss.find(".username").val() == '') {
+					layer.msg('请输入您的称呼');
+					_thiss.find(".username").focus()
+					return false;
+				}
+				var mobile = _thiss.find(".loginphone").val();
+
+				if(mobile == '') {
+					layer.msg('请输入手机号码');
+					_thiss.find(".loginphone").focus()
+					return false;
+				}
+				if(!(/^1[2|3|4|5|6|7|8|9]\d{9}$/.test(mobile))) {
+					layer.msg('手机号码格式有误');
+					return false;
+				}
+				var yzm = _thiss.find(".yzm").val();
+				if(yzm == '') {
+					layer.msg('请输入验证码');
+					_thiss.find(".yzm").focus()
+					return false;
+				}
+				if(!(/^\d{4}$/.test(yzm))) {
+					layer.msg('验证码格式有误');
+					return false;
+				}
+				if(_thiss.find("input[name='rzxy']:checked").val() != "ok") {
+					return layer.msg('未同意《装信通服务条款和声明》'), false;
+				}
+				ajax_post(classid);
+			})
+
+			function ajax_post(classid) {
+				$.ajax({
+					type: "POST",
+					url: "//www.zx123.cn/member/register.php?action=doregister",
+					dataType: "json",
+					data: $("#" + classid).serialize(), // 你的formid
+					error: function(res) {
+						layer.msg('系统异常，请稍后再试！');
+					},
+					success: function(res) {
+						if(res.status == "-1") {
+							layer.msg(res.msg);
+							return false;
+						} else {
+							layer.confirm(res.msg, {
+								btn: ['确定', '取消'] //按钮
+							}, function() {
+								window.location.href = res.url;
+							}, function() {
+								if(res.modelid == 11) {
+									window.location.href = 'http://www.zx123.cn/yp/business/';
+								} else {
+									window.location.href = 'http://www.zx123.cn/yp/client/';
+
+								}
+
+							});
+
+						}
+					}
+				});
+			}
+
+			function rzxy() {
+				layer.open({
+					type: 2,
+					title: false,
+					closeBtn: 1, //不显示关闭按钮
+					shade: [0],
+					area: ['670px', '500px'],
+					anim: 2,
+					content: ['//www.zx123.cn/member/reagreement.php'], //iframe的url，no代表不显示滚动条
+				});
+			}
+		</script>
+		<script type="text/javascript" charset="gbk" src="js/diqulist.js" rel="nofollow"></script>
+
+		<div class="maindown">
+			<div class="main1200 clear">
+				<div class="md_left">
+					<div class="address_a">
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/about/aboutus/">关于我们</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/about/contactus/">联系我们</a>|
+						<a style="cursor:pointer;" rel="nofollow" onclick="window.open('//wpa.qq.com/msgrd?v=3&amp;uin=2460300871&amp;site=qq&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no')">友链合作</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/help/">帮助中心</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/guestbook/">意见反馈</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/ads/">广告预定</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/join/">分站加盟</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/download-center/index.html"><span style="color:#FFCC33;">客户端下载</span></a>
+					</div>
+					<div class="address_b clear">
+						<script src="js/mail.js" charset="gb18030"></script>
+					</div>
+					<div class="address_c">
+						Copyright 2019 zx123.cn，专业装修网-装信通网 版权所有，并保留所有权利。<br> ICP备案证书号：蜀ICP备12015828号 &nbsp;&nbsp;
+						<a href="javascript:void(0);" onclick="tiaozhuan_method(this)">手机版</a>
+						|
+						<a href="//www.zx123.cn">电脑版</a>
+					</div>
+				</div>
+				<div class="md_right">
+					<div class="mdr_c clear">
+						<div class="mdr_a">
+							<a target="_blank" href="http://www.scgswljg.gov.cn/iciaicweb/dzbscheck.do?method=change&amp;id=51090020160720084760">
+								<img class="er" alt="" src="picture/gongs_logo.png" />
+								<!--<img class="er" alt="" src="picture/gongs_logo.png" />-->
+							</a>
+						</div>
+						<div class="mdr_a">
+							<img alt="" src="picture/qrcode_for_gh_e4f.png" />
+							<!--<img alt="" src="picture/qrcode_for_gh_e4f.png" />-->
+						</div>
+					</div>
+					<div class="mdr_b">
+						<span class="icon_y"></span>
+						<a href="tel:4000-123-169">4000-123-169</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

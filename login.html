@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>会员登录_装修123</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link href="./favicon.ico" rel="shortcut icon" />
+		<script language="JavaScript" src="js/jquery-1.8.0.min.js"></script>
+		<link rel="stylesheet" href="css/layui_1.css" media="all">
+		<link rel="stylesheet" href="css/pc_2016_1.css" />
+		<script language="JavaScript" src="js/pc_2016.js"></script>
+	</head>
+
+	<body class="main">
+		<div>
+			<div class="maintop">
+				<div class="main1200 clear">
+					<div class="mt_left">
+						<a href="//www.zx123.cn/city/">
+							<span class="iconty"><span class="icon"></span></span><span class="cityName">总站</span>
+							<font>【切换】</font>
+						</a>
+						<span class="mt_masg">
+8年来打造专业的装修平台，已为4,208,329位用户提供了优质装修服务！
+</span>
+					</div>
+					<div class="mt_right">
+						<span class="jk">
+<a class="one_a" style="color: #ff3322;" href="./company.html">>商家入驻</a>
+<a class="one_a" style="color: #ff3322;" href="./join.html">城市合伙人</a>
+</span>
+						<span class="jk">
+
+<a href="javascript:;" onclick="window.open('//b.qq.com/webc.htm?new=0&sid=800053418&eid=2188z8p8p8p8R8P8Q8q8z&o=zx123.cn&q=7&ref='+document.location, '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no');" rel="nofollow">在线咨询</a>
+<!--<a href="//www.zx123.cn/zx123sitemap.html" rel="nofollow">网站地图</a>-->
+<a class="one_a" style="cursor:default;">热线：4000-123-169</a>
+</span>
+						<span class="jk">
+<a href="//www.zx123.cn/member/register.php" rel="nofollow">注册</a>
+<a href="//www.zx123.cn/member/login.php" rel="nofollow">登陆</a>
+</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="mainlogo clear">
+				<div class="main860 clear">
+					<div class="ml_logo">
+						<a href="/">
+							<img alt="装修网" src="picture/hyzxlogo.png" width="300" height="110">
+						</a>
+					</div>
+					<div class="ml_text">
+						<div class="ml_textwe">用户登录</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="maincenter">
+			<div class="denlu">
+				<div class="main860">
+					<div class="denlulist">
+						<img alt="装修网" src="picture/denlu.png" />
+					</div>
+					<div class="denlulister">
+						<form id="my_from" action="http://www.zx123.cn/member/login.php" method="post" onsubmit="return checklogin()">
+							<div class="denlul_li denluli_a">
+								<span class="dfg"><a href="./login.html">密码登录</a></span>
+								<span><a href="./sms_login.html">手机登录</a></span>
+							</div>
+							<div class="denlul_li"><span class="icon icon_a"></span><input type="text" id="username" name="username" placeholder="请输入用户名"></div>
+							<div class="denlul_li"><span class="icon icon_b"></span><input type="password" id="password" name="password" placeholder="请输入密码"></div>
+							<div class="denlul_li denluli_c denluli_b"><input type="checkbox" name="cookietime" value="2592000">下次自动登录 <span><a href="http://www.zx123.cn/member/getpwd.php">忘记密码？</a></span></div>
+							<div class="denlul_li"><input type="submit" class="sabmi" value="立即登录"></div>
+							<input type="hidden" name="dosubmit" value="1" />
+						</form>
+						<div class="denlul_li denluli_c">
+							<!--<span class="leftsd"><span class="icon icon_c"></span>微博登录</span>-->
+							<a href="http://www.zx123.cn/member/login_qq.php"><span class="leftsd"><span class="icon icon_d"></span>QQ登录</span>
+							</a>
+							<a href="http://www.zx123.cn/member/register.php"><span>免费注册</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function checklogin() {
+				if($("#username").val() == '') {
+					layer.msg('请输入用户名');
+					return false;
+				}
+				if($("#password").val() == '') {
+					layer.msg('请输入密码');
+					return false;
+				}
+				return true;
+			}
+		</script>
+
+		<div class="maindown">
+			<div class="main1200 clear">
+				<div class="md_left">
+					<div class="address_a">
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/about/aboutus/">关于我们</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/about/contactus/">联系我们</a>|
+						<a style="cursor:pointer;" rel="nofollow" onclick="window.open('//wpa.qq.com/msgrd?v=3&amp;uin=2460300871&amp;site=qq&amp;menu=yes', '_blank', 'height=544, width=644,toolbar=no,scrollbars=no,menubar=no,status=no')">友链合作</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/help/">帮助中心</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/guestbook/">意见反馈</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/ads/">广告预定</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/join/">分站加盟</a>|
+						<a target="_blank" rel="nofollow" href="//www.zx123.cn/download-center/index.html"><span style="color:#FFCC33;">客户端下载</span></a>
+					</div>
+					<div class="address_b clear">
+						<script src="js/mail.js" charset="gb18030"></script>
+					</div>
+					<div class="address_c">
+						Copyright 2019 zx123.cn，专业装修网-装信通网 版权所有，并保留所有权利。<br> ICP备案证书号：蜀ICP备12015828号 &nbsp;&nbsp;
+						<a href="javascript:void(0);" onclick="tiaozhuan_method(this)">手机版</a>
+						|
+						<a href="//www.zx123.cn">电脑版</a>
+					</div>
+				</div>
+				<div class="md_right">
+					<div class="mdr_c clear">
+						<div class="mdr_a">
+							<a target="_blank" href="http://www.scgswljg.gov.cn/iciaicweb/dzbscheck.do?method=change&amp;id=51090020160720084760">
+								<img class="er" alt="" src="picture/gongs_logo.png" />
+								<!--<img class="er" alt="" src="picture/gongs_logo.png" />-->
+							</a>
+						</div>
+						<div class="mdr_a">
+							<img alt="" src="picture/qrcode_for_gh_e4f.png" />
+							<!--<img alt="" src="picture/qrcode_for_gh_e4f.png" />-->
+						</div>
+					</div>
+					<div class="mdr_b">
+						<span class="icon_y"></span>
+						<a href="tel:4000-123-169">4000-123-169</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

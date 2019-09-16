@@ -1,0 +1,85 @@
+
+ /*招标页面*/
+.table_showInfo{ margin: 22px auto; border-collapse:collapse; width:100%;}
+.table_showInfo tr{}
+.table_showInfo tr:last-of-type { height: 100px; }
+.table_showInfo td{border:1px solid #F0F0F0; line-height:28px; padding:15px 10px;font-size: 14px;}
+.table_showInfo td h1 { font-size: 18px; }
+.table_showInfo td a { display: none; }
+.table_showInfo td a[href*='//www.zx123.cn/2011/0502/10008.html'] { display: inline-block; }
+.table_showInfo td .showBut a { display: inline-block;position: relative; }
+
+/*广告条*/
+.ad_show_info{ margin: 25px auto;overflow: hidden; }
+.ad_show_info img { width: 100%;display: block; }
+/*按钮*/
+.woyaozhuangxiu { width: 214px;height: 63px;line-height: 63px; padding: 0; background-color: #F15517; color: #FFF; border: 0px solid #FFF; font-weight: bold;}
+.woyaozhuangxiu { border-radius: 4px;box-shadow: none;text-align: center; }
+a.woyaozhuangxiu { background: #fff; color: #fff;margin: 0; }
+a.woyaozhuangxiu:after { content: "";display: block;position: absolute;left: 0;top: 0;right: 0;bottom: 0;background: url(../Images/btn_cation.png) center center no-repeat; }
+a.woyaozhuangxiu:hover:after { background: url(../Images/btn_hover.png) center center no-repeat; }
+.titleme { color: #222222; border-bottom: 1px solid #EAEAEA;font-size: 16px;line-height: 20px;padding: 10px 0;margin: 20px auto; }
+.titlemeer { margin-bottom: 10px; }
+.titlemesv { margin: 0 15px;padding: 20px 0 15px 0; margin-bottom: 0; }
+.rightzaghgde { float: left;border: 1px solid #EAEAEA; }
+/*投标公司列表（动态加载的）*/
+#toubiao_list_div{padding: 0px;}
+#toubiao_list_div ul{list-style:none; margin:0px; padding:0px;}
+#toubiao_list_div li{list-style:none; margin:0px; padding:0px;}
+#toubiao_list_div ul.beizhu .description { height: 80px;padding: 5px; overflow: hidden;line-height: 20px;border: 1px solid #efefef;text-overflow: ellipsis;text-overflow: ellipsis; }  
+#toubiao_list_div .list{width:100%; height:180px; float:left;  border-bottom:1px dotted #F0F0F0; margin-bottom:15px;}
+#toubiao_list_div .bjxx_logo{width:180px; height:100%; float:left;margin-right: 10px; text-align: center; line-height:20px;}
+#toubiao_list_div .bjxx_logo .tel{font-weight:bold;}
+#toubiao_list_div .bjxx_logo img{width:auto; height:auto;max-width:168px;max-height: 90px; margin: 0 auto; border: 1px solid #CCC; padding:2px;margin-bottom: 10px; }
+#toubiao_list_div .bjxx_text{width:260px; height:100%; float:left; line-height:32px;}
+#toubiao_list_div .bjxx_ico{width:80px; height:100%; float:left; text-align:center;}
+#toubiao_list_div .bjxx_ico img{width:20px;}
+#toubiao_list_div .bjxx_img{width:360px; height:100%; float:left;}
+#toubiao_list_div .bjxx_img ul{margin: 0px; padding: 20px 0px 20px 0px;}
+#toubiao_list_div .bjxx_img ul li{ float:left; margin-left:10px; text-align: center; line-height:32px;}
+#toubiao_list_div .bjxx_img ul li img{ float:left; margin-left:5px; border: 1px solid #CCC; padding:2px;}
+#toubiao_list_div .defaultMsg{height: 140px; text-align: center; line-height: 140px; font-size: 14px; width:100%; margin: 0 auto 10px; color: #666; float: left;}
+#main .but_defaulter {height: 35px;background-color: #F76D4E;color: #FFF;width: 200px;margin-top: 3.5px;border: 0px solid #FFFFFF;border-radius: 4px;letter-spacing: 1px;}
+/*装修常见问题*/
+.changJianWenTi{padding:0px 0px 15px 0px;font-size: 14px; }
+.changJianWenTi dl{margin:0px; padding:0px;}
+.changJianWenTi dd{float:left; width:210px; line-height:32px; padding:0px; margin:0px;}
+
+/*右侧招标入口*/
+#ZhaoBiao_Right{padding:15px;}
+#ZhaoBiao_Right table{width:255px;}
+#ZhaoBiao_Right table tr{height:45px;}
+#ZhaoBiao_Right .okNumber{display:block; line-height:45px; background-color:#FFF;}
+/*装修招标常见问题*/
+#zxzbcjwt{ padding:0px 15px 0px 15px; line-height:28px;font-size: 12px; }
+#zxzbcjwt dd{margin: 0px; background-color:#FAFAFA; padding:10px 10px; border:1px solid #EFEFEF;font-size: 12px; }
+.tjroasd { margin: 22px auto; }
+.right_table { width: 208px; }
+.right_title { width: 240px; }
+span#df select { width: 102px; }
+input.txt { width: 94%;padding: 0 3%; }
+.right_table .right_top { margin: 0 auto; }
+.tatlesoanm { text-align: center;margin-top: 5px; }
+.tatlesoanm a {  line-height: 20px; color: #009889;font-size: 12px; }
+
+#LeftAndRight { width: 1200px;margin: 0 auto; }
+#LeftAndRight .left { width: 940px;margin-right: 20px; float: left; }
+#LeftAndRight .right { width: 240px;float: left; }
+
+.right_title { height: 60px;background-color: #FFFFFF; font-size: 14px;text-indent: 3.5em; line-height: 60px; text-align: center;background: url(../Images/img2015.png) #27BC9C;background-position: 0px -104px;color: #FFFFFF; }
+.but_default { background-color: #F39943; }
+
+
+.wbtn_right { display: block;float: right; }
+.wbtn_left { display: block;float: left; }
+.wbtn_inline { display: inline-block; }
+.wbtn_block { display: block;width: 100%;margin: 0; }
+a.sbtn { float: left;transition: 0.3s all;border-radius: 5px;text-align: center; margin: 0 10px 0 0; display: block;width: 70px;height: 30px;line-height: 30px;border: 1px solid #fff;color: #fff;background: #fff; }
+a.sbtn:hover { border: 1px solid #fff;color: #fff;background: #fff;cursor: pointer; }
+a.sbtn:active { transform: scale(0.9); }
+a.sbtn_999 { border: 1px solid #999;color: #999;background: #fff; }
+a.sbtn_999:hover { border: 1px solid #999;color: #999;background: #fff; }
+a.sbtn_f00 { border: 1px solid #ff0000;color: #fff;background: #ff0000; }
+a.sbtn_f00:hover { border: 1px solid #ff0000;color: #fff;background: #ff0000; }
+a.sbtn_f01 { border: 1px solid #ff0000;color: #ff0000;background: #fff; }
+a.sbtn_f01:hover { border: 1px solid #ff0000;color: #ff0000;background: #fff; }
